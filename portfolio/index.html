@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="王花生的个人作品集 - 建筑工程师 · AI创业者 · 副业探索者" />
+  <title>王花生 · 个人作品集</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── 导航栏 ─────────────────────────────────────────── -->
+  <nav id="navbar" role="navigation" aria-label="主导航">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">王<span>花生</span></a>
+
+      <!-- 桌面导航链接 -->
+      <ul class="nav-links" role="list">
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#experience">经历</a></li>
+        <li><a href="#skills">技能</a></li>
+        <li><a href="#projects">项目</a></li>
+        <li><a href="#voyage">航海</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+
+      <!-- 移动端汉堡按钮 -->
+      <button class="nav-toggle" id="navToggle" aria-label="展开导航菜单" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- 移动端菜单 -->
+    <nav class="nav-mobile" id="navMobile" aria-label="移动端导航">
+      <a href="#about">关于我</a>
+      <a href="#experience">经历</a>
+      <a href="#skills">技能</a>
+      <a href="#projects">项目</a>
+      <a href="#voyage">航海</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </nav>
+
+  <!-- ── Hero 区 ────────────────────────────────────────── -->
+  <section id="hero" aria-label="个人介绍">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <!-- 头像 -->
+      <div class="hero-avatar" aria-hidden="true">
+        <div class="hero-avatar-placeholder">🥜</div>
+        <!-- 替换为真实头像：<img src="assets/images/avatar.jpg" alt="王花生头像" /> -->
+      </div>
+
+      <!-- 文字内容 -->
+      <div class="hero-text">
+        <h1>王<span class="accent">花生</span></h1>
+        <p class="hero-subtitle" id="heroSubtitle">建筑工程师 · AI创业者 · 副业探索者</p>
+        <p class="hero-bio" id="heroBio">
+          来自南阳，深耕建筑工程行业，持有一级建造师证书。<br>
+          用数据思维和 AI 工具探索副业新方向，目标3个月月入3000。
+        </p>
+        <a href="#projects" class="hero-cta">
+          <span>查看我的项目</span>
+          <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 关于我 ──────────────────────────────────────────── -->
+  <section id="about" class="section" aria-label="关于我">
+    <div class="container">
+      <h2 class="section-title fade-in">关于我</h2>
+      <div class="about-grid fade-in">
+        <!-- 左：简介 + 标签 -->
+        <div>
+          <p class="about-bio" id="aboutBio">
+            <!-- 由 main.js 从 data.js 填充 -->
+          </p>
+          <div class="about-tags" id="aboutTags" role="list" aria-label="个人标签">
+            <!-- 由 main.js 从 data.js 填充 -->
+          </div>
+        </div>
+        <!-- 右：亮点卡片 -->
+        <div class="highlights-grid" id="highlightsGrid" role="list" aria-label="核心亮点">
+          <!-- 由 main.js 从 data.js 填充 -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 工作经历 ────────────────────────────────────────── -->
+  <section id="experience" class="section" aria-label="工作经历">
+    <div class="container">
+      <h2 class="section-title fade-in">工作经历</h2>
+      <div class="timeline fade-in" id="timeline" role="list" aria-label="工作经历时间轴">
+        <!-- 由 main.js 从 data.js 填充 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 技能专长 ────────────────────────────────────────── -->
+  <section id="skills" class="section" aria-label="技能专长">
+    <div class="container">
+      <h2 class="section-title fade-in">技能专长</h2>
+      <div class="skills-grid fade-in" id="skillsGrid" role="list" aria-label="技能分类">
+        <!-- 由 main.js 从 data.js 填充 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 项目作品集 ──────────────────────────────────────── -->
+  <section id="projects" class="section" aria-label="项目作品集">
+    <div class="container">
+      <h2 class="section-title fade-in">项目作品集</h2>
+      <div class="projects-grid fade-in" id="projectsGrid" role="list" aria-label="项目列表">
+        <!-- 由 main.js 从 data.js 填充 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 航海案例 ────────────────────────────────────────── -->
+  <section id="voyage" class="section" aria-label="航海案例">
+    <div class="container">
+      <div class="voyage-header fade-in">
+        <h2 class="section-title" style="margin-bottom:0">航海案例</h2>
+        <span class="voyage-badge" aria-label="来源">生财有术 · 官方实战项目</span>
+      </div>
+      <div class="voyage-grid fade-in" id="voyageGrid" role="list" aria-label="航海案例列表">
+        <!-- 由 main.js 从 data.js 填充 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 联系方式 ────────────────────────────────────────── -->
+  <section id="contact" class="section" aria-label="联系方式">
+    <div class="container">
+      <h2 class="section-title fade-in">联系我</h2>
+      <div class="contact-grid fade-in">
+        <!-- 左：邀请文案 -->
+        <div>
+          <p class="contact-intro" id="contactIntro">
+            <!-- 由 main.js 从 data.js 填充 -->
+          </p>
+          <p class="contact-response" id="contactResponse">
+            <!-- 由 main.js 从 data.js 填充 -->
+          </p>
+        </div>
+        <!-- 右：联系链接 -->
+        <div class="contact-links" id="contactLinks" role="list" aria-label="联系方式列表">
+          <!-- 由 main.js 从 data.js 填充 -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 页脚 ──────────────────────────────────────────────── -->
+  <footer role="contentinfo">
+    <div class="container">
+      <p>© 2024 <span>王花生</span> · 用 AI 工具构建 · 南阳</p>
+    </div>
+  </footer>
+
+  <!-- 数据文件必须在 main.js 之前加载 -->
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
